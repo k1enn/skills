@@ -1,0 +1,26 @@
+# regex | severity | reason      (case-insensitive, matched on tex body with comments stripped)
+Jenkins\s+pipeline | FAIL | AUDIT: Jenkins host installed only, no pipeline ever ran
+\bHelm\b | FAIL | user 23 Sep 2026: Helm not real
+\bNginx\b | FAIL | devops base header: Nginx not proven
+\bArgo\s?CD\b|\bGitOps\b | FAIL | not proven
+\bon-?call\b | FAIL | not proven
+alerting\s+rules | FAIL | Prometheus alerting rules not proven
+\bJira\b|\bTrello\b | FAIL | agile-facts: ClickUp + GitHub Issues only
+\bPSM\b|\bPMP\b|Scrum\s+Master\s+cert | FAIL | no certs
+coverage\s*\d+\s*\\?%|\d+\s*\\?%\s*(test\s+)?coverage | FAIL | AUDIT: never claim coverage %
+Lighthouse[^.\n]{0,80}\b(8\d|9\d|100)\b | FAIL | An Binh after-score was never recorded
+\b411\b[^.\n]{0,20}tests | FAIL | stale: 421 peak, 300 CI-gated, CI tests deleted 13 Sep 2026
+\b890\b[^.\n]{0,15}commits | FAIL | stale: 1,140+ commits (73% mine)
+\b75k\b[^.\n]{0,10}LOC | FAIL | stale: 53k hand written
+\b205\b[^.\n]{0,10}endpoints | FAIL | stale: 252 endpoints
+\b44\b[^.\n]{0,10}migrations | FAIL | stale: 46 migrations
+\b47\b[^.\n]{0,10}pages | FAIL | stale: 48 pages
+200M\s+rows|50k\s+queries | FAIL | stale per-day figures, use 580k q / 1.9B rows per month
+HR[^.\n]{0,60}Mar\s+2026 | FAIL | HRM first commit May 2026
+NodePort|port[- ]forward|2nd\s+worker|second\s+worker|x86-64-v2 | FAIL | homelab items never built (lab.md)
+\\includegraphics|\\photo(?!false) | FAIL | Sistilli: no photo
+\bSpring\b(?![^.\n]{0,15}learning) | WARN | write Spring as learning only
+\bKafka\b|\bOracle\b|\bRedis\b|\bPostgre(?:s|SQL)\b | WARN | study level or absent in every file (MoMo consistency)
+\bJava\b(?![^.\n]{0,25}(university|coursework|academic)) | WARN | Java is university level in every file
+CTLD[^\n]{0,300}sole\s+developer | WARN | CTLD: say "joined as the only developer", repos show 5 committers
+Terraform[^.\n]{0,30}(prod|production) | WARN | Terraform only in AWS workshop, never prod

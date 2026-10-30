@@ -1,0 +1,37 @@
+# jd keyword -> real evidence terms that satisfy it (user approved 23 Sep 2026)
+node.js|nodejs|node -> hono, elysia, elysiajs, express, node
+sql -> sqlite, d1, mysql, sql
+sqlite -> d1, sqlite
+orm -> drizzle, orm
+serverless|lambda|faas -> workers, serverless, lambda
+unit test|unit testing|jest|testing -> vitest, unit test, tests
+ci/cd|ci cd|continuous integration|pipeline -> github actions, ci/cd, release-please, pipeline
+rest|restful|rest api|restful api -> rest, endpoint, api
+iac|infrastructure as code|configuration management|automation -> ansible, terraform, playbook, iac
+kubernetes|k8s -> kubeadm, kubernetes, k8s
+container|containers|containerization -> docker, containerd, lxc
+s3|object storage -> r2, s3, backblaze, b2, object storage
+aws -> aws, ec2, api gateway, route 53, s3
+cloud -> cloudflare, aws, cloud
+agile|scrum|kanban -> scrum, kanban, agile, sprint
+typescript|ts -> typescript
+javascript|js|es6 -> javascript, typescript
+react|reactjs|react.js -> react
+next.js|nextjs|ssr -> next.js
+tailwind|css -> tailwind, css
+git -> git, pull request, pr
+linux -> linux, ubuntu, debian, systemd
+monitoring|observability -> prometheus, grafana, analytics, p99
+websocket|realtime|real-time -> websocket, crdt, yjs, durable object
+auth|authentication|rbac -> auth, rbac, jwt, session
+queue|message queue -> queue, queues
+mongodb|mongo|nosql -> mongodb
+docker -> docker
+python -> python
+bash|shell -> bash, shell
+mysql -> mysql, sql
+redux -> redux
+figma -> figma
+ansible -> ansible
+terraform -> terraform
+jenkins -> jenkins
